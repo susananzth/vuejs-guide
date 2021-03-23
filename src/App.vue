@@ -1,17 +1,20 @@
 <template>
   <main>
     <Header title="Carrusel" />
+    <Container />
     <Footer />
   </main>
 </template>
 
 <script>
 import Header from "./components/Header";
+import Container from "./components/Container";
 import Footer from "./components/Footer";
 
 export default {
   components: {
     Header,
+    Container,
     Footer,
   }
 };

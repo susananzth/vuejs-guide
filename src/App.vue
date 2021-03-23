@@ -1,4 +1,5 @@
 <template>
+  <Nav />
   <main>
     <Header title="Carrusel" />
     <Container />
@@ -7,12 +8,14 @@
 </template>
 
 <script>
+import Nav from "./components/Nav";
 import Header from "./components/Header";
 import Container from "./components/Container";
 import Footer from "./components/Footer";
 
 export default {
   components: {
+    Nav,
     Header,
     Container,
     Footer,
